@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaappatlixco.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/res2.jpg','imagenes/viveros.jpg')">
+<div data-role="page" id="Principal" data-them="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>ATLIXCO </h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div><center>
+  <!-- Start WOWSlider.com -->
+<iframe src="visor/wowslider.html" style="width:400px;height:160px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<p>Atlixco conocida como: &quot;<em>Atlixco de las Flores, El mejor clima del mundo , y Granero de la Nueva España</em>&quot;</p>
+  </center>  
+    </div>
+  </div>
+  
+  <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Acerca de Atlixco</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Comida y restaurantes </h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Lugares Turisticos</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Hoteles</h2>
+  </a>
+  </li>
+  </ul>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h3>Elaborado por</h3>
+  <div>
+  <p>Lizbeth Actual Hernández </p>
+  <p>Materia: Desarrolla Aplicaciones Moviles</p>
+  <p>Profesor: Lic. Jose Antonio Gomez Hernández</p>
+  <p>4to Semestre Grupo "G"</p>
+  <p>C.B.T.i.s 16</p>
+  </div>
+  <div></div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="res/android/mdpi.png" width="43" height="43">
+  <h4>Turismo en Atlixco</h4>
+  </div>
+  </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Hablemos de Atlixco</h1>
+  </div>
+  <div data-role="content">
+  <div>
+  <p><img src="imagenes/Atlixco1.png" width="571" height="134"></p>
+  <p>Se ubica a 25 km de la ciudad de Puebla, capital del Estado y cuenta con dos importantes vías de acceso: la Carretera Federal 190 y la moderna Autopista Vía Atlixcáyotl.</p>
+  <p>Actualmente, es una moderna ciudad con más de cien mil habitantes, que ha logrado armonizar su desarrollo urbano con el majestuoso legado de arquitectura colonial que dejaron sus fundadores (1579), y que hoy es uno de los principales atractivos turísticos de este municipio.</p>
+  <p>Atlixco de las Flores, como le llaman propios y extraños, conserva sus tradiciones y costumbres.</p>
+  <p>El 3 de marzo de 1706 se convierte en una especie de señorío, otorgado por el Rey Felipe V a don José Sarmiento de Valladares concediéndole el título de primer Duque y Señor de Atlixco. Debido a los acontecimientos que se suscitaron en la época independiente, el general Nicolás Bravo, presidente suplente de la República, le dio el título de Ciudad de Atlixco el 14 de febrero de 1843.</p>
+  <p>&nbsp;</p>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/ATLIXCO.png',1)"><img src="imagenes/Kiosko de Atlixco.jpg" width="273" height="174" id="Image7"></a></p>
+  <div>
+  <iframe width="100%" height="80%" src="https://www.youtube.com/embed/7IMetp5FIi8" frameborder="0" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+  <img src="res/android/mdpi.png" width="73" height="70">
+  <h4>Turismo en Atlixco</h4>
+  </div>
+  </div>
+  </div>
+ 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Comida y restaurantes</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ Algunos de los restaurantes mas populares de Atlixco son:
+ <br>
+ <br>
+ </div>
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Restaurante Casona Dieciocho94</h1>
+  <div>
+  <p>Cocina Internacional</p>
+  <p>Dirigido por le chef Marco Chavarria este restaurante, a tan solo unas cuadras del centro histórico, es ideal para desayunar, una cena romántica, comida en familia e incluso organizar tus eventos. Si estás indeciso sobre qué platillos pedir, puedes optar por el menú vanguardista de degustación con ingredientes de la región. También cuenta con cerveza artesanal y varios vinos nacionales e importados.</p>
+  <br>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Restaurante Palmira Jardín Bar & Grill</h1>
+  <div>
+  <p>Rodeado de jardines, este restaurante hará que tu visita sea muy agradable. El variado menú incluye un poco de todo: mariscos, carnes, aves, y los fines de semana puedes optar por el buffet, una de las opciones favoritas de los comensales. También es pet friendly, así que si vas con tu perro no tendrás ningún problema.</p>
+  <br>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>La Perla</h1>
+  <div>
+  <p>Av. Hidalgo Esq. Portal Morelos, Atlixco, México</p>
+<p> telefono: 522444450219</p>
+  <br>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Las Calandrias</h1>
+  <div>
+  <p>Carretera Puebla - Izucar de Matamoros, Libramiento Atlixco Km. 5 Atlixco, Puebla, Atlixco, México</p>
+<p> telefono: +52 244 446 2020</p>
+  <br>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>El Tamalito</h1>
+  <div>
+  <p>Avenida Hidalgo 501 | Centro, Atlixco 74200, México </p>
+ <p> Telefono: 2444452623</p>
+  <br>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/res2.jpg',1)"><img src="imagenes/res.jpg" width="238" height="176" id="Image"></a>
+  </div>
+  </div>
+ <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+ <img src="res/android/mdpi.png" width="73" height="70" data-position="fixed">
+  <h4>Turismo de Atlixco</h4>
+ </div>
+ </div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Lugares para visitar</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+La belleza de Atlixco también se aprecia a través de su Arquitectura Religiosa, Civil y Vernácula, con excelentes portadas barrocas de argamasa, se puede observar inmuebles de siglos XVI y XVII como el Ex convento de San Francisco que pareciera un castillo de la época medieval, grandes casonas
+ <br>
+ <br>
+ </div>
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Las Tres Joyas de Atlixco</h1>
+  <div>
+  <p>Las Tres Joyas de Atlixco son los tres inmuebles más importantes que tiene el Ayuntamiento a su resguardo y que dentro de los mismos se tiene un acervo invaluable.
+
+<p>1. El ex convento del Carmen dentro del inmueble se encuentra el museo prehispánico y la sala de exhibiciones temporales y permanentes.</p>
+<p>2. Palacio Municipal dentro del inmueble se encuentran las oficinas del Ayuntamiento donde se toman las decisiones importantes del Municipio, así como los murales que embellecen dicho inmueble y que narran a través de la pintura la historia del Municipio.</p>
+<p>3. Hospital Municipal dentro del inmueble se encuentra la Pinacoteca con cuadros de la vida y obra de San Juan de Dios y el primer hospital del municipio.</p>
+  <br>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Noche de Museos </h1>
+  <div>
+  <p>Atlixco cuenta con un gran acervo cultural en cuanto a museos se refiere; por lo que en coordinación con algunos cronistas e historiadores del municipio, cada mes se realiza un recorrido nocturno por las principales calles de Atlixco, visitando algunas de las fachadas de los inmuebles históricos.</p>
+
+<p>Los museos que se visitan son: El museo Prehispánico, Exposicion semipermanente de Santa Clara, y Pinacoteca Municipal</p>
+  <br>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Atlixco Bike</h1>
+  <div>
+  <p>El tour se desarrolla en la colonia Cabrera uno de los lugares donde se realiza la mayor producción de Flores y Plantas.
+
+Recorrido es en bicicleta desde esta colonia hasta el Zócalo de Atlixco y terminan en el mismo lugar de origen donde se realiza una parrillada o hamburguesas para convivir.</p>
+  <br>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1> Zócalo de la Ciudad – Cerro de San Miguel</h1>
+  <div>
+  <p>Descubre cada rincón de Atlixco comenzando en el centro de la ciudad. Extiende tu paseo desde el zócalo hacia la Avenida Miguel Hidalgo para pasar por la antigua Iglesia de la Tercer Orden, siguiendo por la calzada 16 de Septiembre para llegar a la Plazuela Fray Toribio de Benavente que se muestra al público como antesala del Convento e Iglesia de San Francisco.</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1> Viveros de Cabrera – Cerro de San Miguel</h1>
+  <div>A partir de la zona de viveros en la colonia Cabrera continúa tu recorrido en la Ciudad de las Flores por la calle 17 norte, que te conducirá al empedrado camino rumbo al Cerro de San Miguel. Si tu paseo lo haces caminando puedes subir por el callejón Chicomecoatl, nombre que lleva en honor a la "Diosa de la Subsistencia y el Maíz"; sigue la trayectoria por la calle Circunvalación Xochiquetzal "Diosa de la Belleza y el Amor"</p>
+  </div>
+  </div>
+  <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/viveros.jpg',1)"><img src="imagenes/viveros1.jpg" width="284" height="177" id="Image9"></a></div>
+ <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+ <img src="res/android/mdpi.png" width="73" height="70" data-position="fixed">
+  <h4>Turismo de Atlixco</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Hoteles </h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <p>• Mancion del Conde: 12 habitaciones, Frente a la Plaza Principal</p>
+ <p>• La calandrias: 19 suites, a 200 m del Cristo</p>
+ <p>• Posada Los Alcatraces: 9 habitaciones, a 10 min del Centro</p>
+ <p>• Alquería De Carrión Hotel, Boutique, 18 Habitaciones. Ubicados en el corazón de Atlixco, a un costado del Palacio Municipal.</p>
+ <p>• Club Campestre Aguaverde, 11 habitaciones a 4 cuadras del Zócalo</p>
+ <p>• Hotel San Miguel 10 habitaciones a una cuadra del zocalo</p>
+ <p>• Villa la Luz, 12 habitaciones a 5 min del Centro </p>
+ <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/hotel1.jpg',1)"><img src="imagenes/hotel.jpg" width="226" height="179" id="Image10"></a></p>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a" ata-position="fixed">
+ <center><img src="res/android/mdpi.png" width="73" height="70">
+  <h4>Turismo en Atlixco</h4></center>
+ </div>
+ </div>
+ </div>
+
+ </body>
+ </html>
